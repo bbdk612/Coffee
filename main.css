@@ -87,13 +87,20 @@ main {
 @media screen and (max-width: 1000px) {
 	.price_items {
 		display: grid;
-		grid-template-columns: repeat(1, 1fr);
+		grid-template-columns: repeat(2, 1fr);
 		grid-gap: 35px;
 		width: 100%;
-		/* width: 250px; */
-		/* padding: 10px; */
-
 	}
+}
+
+.price_item {
+	/* width: 250px; */
+	/* padding: 10px; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #A7A7A7;
 }
 
 /* .description {} */
