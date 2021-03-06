@@ -87,8 +87,8 @@ main {
 @media screen and (max-width: 1000px) {
 	.price_items {
 		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		grid-gap: 35px;
+		grid-template-columns: 1fr;
+		grid-gap: 15px;
 		width: 100%;
 	}
 }
