@@ -37,7 +37,7 @@ main {
 
 .main__image {
 	background-image: url(img/kofe-s-koritsey.jpg);
-	filter: blur(2px);
+	/* filter: blur(2px); */
 	width: 100%;
 	height: 50vh;
 	background-attachment: fixed;
@@ -112,4 +112,22 @@ main {
 
 .price {
 	text-decoration: underline;
+}
+
+footer {
+	background-color: black;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 10px 20px;
+	color: white;
+
+}
+
+.contact_with_us {
+	list-style-type: none;
+}
+
+li>a {
+	color: white;
+	text-decoration: none;
 }
