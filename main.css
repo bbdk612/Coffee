@@ -87,8 +87,8 @@ main {
 @media screen and (max-width: 1000px) {
 	.price_items {
 		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		grid-gap: 35px;
+		grid-template-columns: 1fr;
+		grid-gap: 15px;
 		width: 100%;
 	}
 }
@@ -113,6 +113,7 @@ main {
 .price {
 	text-decoration: underline;
 }
+<<<<<<< HEAD
 
 footer {
 	background-color: black;
@@ -131,3 +132,5 @@ li>a {
 	color: white;
 	text-decoration: none;
 }
+=======
+>>>>>>> 86a76613fce5227372e9a03663c6befc87cc2470
