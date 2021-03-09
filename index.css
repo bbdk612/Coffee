@@ -1,0 +1,56 @@
+.main__image {
+    background-image: url(img/kofe-s-koritsey.jpg);
+    /* filter: blur(2px); */
+    width: 100%;
+    height: 50vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.SayHi {
+    padding-top: 15px;
+}
+
+.price_list {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.price_items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 35px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    .price_items {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+        width: 100%;
+    }
+}
+
+.price_item {
+    /* width: 250px; */
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #A7A7A7;
+}
+
+/* .description {} */
+
+.poster {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.price {
+    text-decoration: underline;
+}

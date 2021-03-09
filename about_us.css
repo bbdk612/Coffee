@@ -1,0 +1,22 @@
+/* .photo {
+    border-radius: 20px
+} */
+.pic {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.photo>img {
+    width: 100px;
+    margin-left: 1.5em;
+    border-radius: 50px;
+    border: 2px solid #a7a7a7;
+}
+
+@media screen and (max-width: 1000px) {
+    .photo {
+        display: none;
+    }
+}
